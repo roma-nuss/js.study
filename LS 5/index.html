@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script defer src="./script.js"></script>
+
+    <!-- <script async src="./script.js"></script>  -->
+
+    <!-- async мы должны быть точно уверены что скрипт не зависит от Dom структуры, и кроме этого он не должен зависеть от других скриптов -->
+
+    <!-- script с defer никогда не блокируют страницу , и ждет когда загрузиться Dom дерево -->
+
+    <p>Hello World !</p>
+    <p>Second message</p>
+  </body>
+</html>
